@@ -1,0 +1,240 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+.header {
+  position: absolute;
+  width: 100%;
+  overflow: hidden;
+}
+
+.head {
+  display: flex;
+}
+
+.head .logo {
+  margin: 10px 0 10px 30px;
+}
+
+.btn {
+  margin-left: 950px;
+  margin-top: 10px;
+}
+
+.btn button {
+  padding: 10px 28px;
+  border-radius: 30px;
+  border: none;
+  font-size: 14px;
+  background-color: #ffc107;
+  color: #222;
+  font-weight: 500;
+  transition: 0.5s;
+}
+
+.btn button:hover {
+  background-color: #002e85;
+  color: #fff;
+}
+
+.head-content {
+  height: 620px;
+  background: #004dda
+    url(http://www.ansonika.com/allaia/img-preview/logo_head.svg) no-repeat
+    center center;
+  text-align: center;
+  display: inline-block;
+  width: 100%;
+}
+
+.head-content .title {
+  margin-top: 250px;
+  color: #fff;
+  font-size: 36px;
+  font-weight: 500;
+  text-transform: uppercase;
+  opacity: 0.9;
+}
+
+.head-content .para {
+  color: #fff;
+  font-size: 34px;
+  font-weight: 300;
+}
+
+.head-content .btns button:nth-child(1) {
+  margin: 5px;
+  padding: 8px 25px;
+  border-radius: 2px;
+  border: none;
+  font-weight: 500;
+  color: #222;
+  background-color: #ffc107;
+  transition: 0.5s;
+}
+
+.head-content .btns button:nth-child(1):hover {
+  background-color: #002e85;
+  color: #fff;
+}
+
+.head-content .btns button:nth-child(2) {
+  padding: 8px 25px;
+  border-radius: 2px;
+  border: 2px solid #fff;
+  font-weight: 500;
+  color: #fff;
+  background-color: #004dda;
+  transition: 0.5s;
+}
+
+.head-content .btns button:nth-child(2):hover {
+  border: none;
+  border: 2px solid #002e85;
+  color: #fff;
+  background-color: #002e85;
+}
+
+.container {
+  margin-top: 50px;
+}
+
+.container span {
+  width: 120px;
+  height: 2px;
+  background-color: #e1e1e1;
+  display: block;
+  margin: auto;
+}
+
+.container span em {
+  width: 60px;
+  height: 2px;
+  background-color: #004dda;
+  display: block;
+  margin: auto;
+}
+
+.container-title {
+  margin-top: 25px;
+}
+
+.container-details {
+  font-size: 24px;
+  font-weight: 300;
+}
+
+.container .row {
+  display: flex;
+}
+
+.row .demo-img {
+  display: block;
+  width: 350px;
+  height: 450px;
+  overflow: hidden;
+  position: relative;
+  margin: 0 auto;
+  cursor: pointer;
+  transition: 0.5s;
+  border-radius: 5px;
+  box-shadow: 0 4px 17px rgba(0, 0, 0, 0.25);
+}
+
+.row .demo-img:hover {
+  transform: translateY(-15px);
+}
+.row .demo-item {
+  margin-top: 60px;
+}
+
+.row .demo-item h3 {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 18px;
+}
+
+/*Second Container*/
+
+.features-container {
+  margin-top: 100px;
+  border-top: 1px solid #ededed;
+  background: #f8f8f8
+    url(http://www.ansonika.com/allaia/img-preview/pattern_3.svg) no-repeat
+    center center;
+  overflow: hidden;
+}
+
+.row .demo-body {
+  background-color: #fff;
+  text-align: center;
+  background: #fff;
+  padding: 30px 30px 15px 30px;
+  display: block;
+  margin: 30px 10px 20px 0;
+  box-shadow: 0 4px 17px rgba(0, 0, 0, 0.25);
+  transition: 0.5s;
+}
+
+.row .demo-body:hover {
+  transform: translateY(-15px);
+}
+
+.row .demo-body h3 {
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.row i {
+  font-size: 40px;
+  color: #004dda;
+}
+
+/**/
+
+.price {
+  height: 200px;
+  display: inline-block;
+  background-color: #004dda;
+  width: 100%;
+}
+
+.price p {
+  color: #fff;
+  font-size: 28px;
+}
+
+.price button {
+  padding: 8px 25px;
+  background-color: #fff;
+  color: #222;
+  border-radius: 5px;
+  border: none;
+  transition: 0.5s;
+  font-weight: 500;
+}
+
+.price button:hover {
+  background-color: #002e85;
+  color: #fff;
+}
+
+/**/
+
+.row {
+  display: flex;
+}
+.contain {
+  max-width: 1200px;
+  width: 100%;
+}
+.owl-carousel .image {
+  display: flex;
+  padding: 20px;
+  height: 300px;
+  align-items: center;
+  justify-content: center;
+}
